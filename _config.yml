@@ -1,21 +1,22 @@
 # Site settings
-name: 'Allison Liu'
-description: 'azn@allisonznliu.com'
-meta_description: ''
+name: "Allison Liu"
+description: "azn@allisonznliu.com"
+meta_description: ""
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
-  image: 'bio-photo1.jpg'
+  image: "bio-photo.jpg"
   greetings: "Hi! My name is Allison Liu. I'm passionate about improving sustainability through uncovering and understanding patterns in data."
-favicon: 'assets/images/favicon.ico'
+favicon: "assets/images/favicon.ico"
+resume: "Resume_AllisonLiu.pdf"
 baseurl:
 production_url: https://allisonznliu.com/
 # Add your GA Tracking Id
 ga_analytics: G-1HG83XG8WR
 
 # Social links
-github: 'allisonznl'
-linkedin: 'allisonznliu'
+github: "aznliu"
+linkedin: "allisonznliu"
 
 # Navigation
 navigation:
@@ -28,7 +29,6 @@ navigation:
   - text: Publications
     url: /publications
 
-
 # Required Plugins
 plugins_dir:
   - jekyll-seo-tag
@@ -40,7 +40,7 @@ plugins_dir:
 collections:
   tags:
     output: true
-    order: 
+    order:
       - machinelearning.md
       - appm.md
       - algorithms.md
@@ -62,4 +62,3 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-
